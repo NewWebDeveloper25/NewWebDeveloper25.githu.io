@@ -1,0 +1,63 @@
+h1{
+    color: rgb(25, 27, 136)
+}
+body{
+    background: rgb(139, 81, 23)
+}
+a{
+    background-color: rgb(241, 235, 235);
+    color: white;
+}
+header{
+    background-image: url(fall.jpg);
+    padding: 200px 0 0 100px;
+ font-size: 170%;
+ background-color: #0d0db6;
+ color: #FFFFFF;
+}
+section{
+    color: white;
+    background-color: rgb(10, 10, 10);
+    padding: 50px;
+    padding-left: 2em;
+    padding-right: 2em;
+    float: center;
+   right: 2em;
+   left: 2em;
+}
+footer{
+    background: orangered;
+    color: white;
+    float: bottom;
+}
+nav  {
+    display: block;
+    transition: 2s linear;  }
+nav{
+    text-align: left;
+    background-color: #463535;
+   padding-top: 0em;
+   padding-bottom: 1em;       
+   padding-right: 1em;
+}
+a:link{
+    color: #0b0fee; 
+    }
+    a:visited {
+    color: #07acac;
+    }
+    a:hover{
+        color:#856e08e3 ;
+    }
+
+    form {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 60%;
+        max-width: 40em;
+        margin-bottom: .5em;
+        
+    }
+    input, datalist textarea {
+        margin-bottom: .5em;
+    }
